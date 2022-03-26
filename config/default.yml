@@ -931,6 +931,8 @@ Layout/IndentationWidth:
   VersionAdded: '0.49'
   # Number of spaces for each indentation level.
   Width: 2
+  # Whether to enforce each line being *at most* one indent deeper than the previous line.
+  Strict: false
   IgnoredPatterns: []
 
 Layout/InitialIndentation:
